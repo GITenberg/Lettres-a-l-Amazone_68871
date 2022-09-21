@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xml:base="http://www.gutenberg.org/"
+  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:dcam="http://purl.org/dc/dcam/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <pgterms:ebook rdf:about="ebooks/68871">
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <dcterms:license rdf:resource="license"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-08-30</dcterms:issued>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</pgterms:downloads>
+    <dcterms:creator>
+      <pgterms:agent rdf:about="2009/agents/6996">
+        <pgterms:name>Gourmont, Remy de</pgterms:name>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1858</pgterms:birthdate>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1915</pgterms:deathdate>
+        <pgterms:alias>Gourmont, Remi de</pgterms:alias>
+        <pgterms:alias>De Gourmont, Remy</pgterms:alias>
+        <pgterms:alias>Gourmont, Remye</pgterms:alias>
+        <pgterms:alias>L'Ymagier</pgterms:alias>
+        <pgterms:alias>Le Danois, N.</pgterms:alias>
+        <pgterms:alias>Drexelius, J.</pgterms:alias>
+        <pgterms:alias>Coffe, M.</pgterms:alias>
+        <pgterms:alias>Gourmont, Rémy de</pgterms:alias>
+        <pgterms:webpage rdf:resource="https://en.wikipedia.org/wiki/R%C3%A9my_de_Gourmont"/>
+        <pgterms:webpage rdf:resource="https://fr.wikipedia.org/wiki/Remy_de_Gourmont"/>
+      </pgterms:agent>
+    </dcterms:creator>
+    <marcrel:ill>
+      <pgterms:agent rdf:about="2009/agents/49887">
+        <pgterms:name>Vibert, P.-E. (Pierre-Eugène)</pgterms:name>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1875</pgterms:birthdate>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1937</pgterms:deathdate>
+        <pgterms:alias>Vibert, Pierre-Eugène</pgterms:alias>
+        <pgterms:alias>Vibert, Pierre Eugène</pgterms:alias>
+        <pgterms:alias>Vibert, P.-E. (Pierre-Eugene)</pgterms:alias>
+        <pgterms:webpage rdf:resource="https://fr.wikipedia.org/wiki/Pierre-Eugène_Vibert"/>
+      </pgterms:agent>
+    </marcrel:ill>
+    <dcterms:title>Lettres à l'Amazone</dcterms:title>
+    <pgterms:marc260>France :Georges Crès,1914.</pgterms:marc260>
+    <pgterms:marc508>Laurent Vogel and the Online Distributed Proofreading Team at https://www.pgdp.net (This file was produced from images generously made available by the Bibliothèque nationale de France (BnF/Gallica))</pgterms:marc508>
+    <pgterms:marc904>https://gallica.bnf.fr/ark:/12148/bpt6k1527255r</pgterms:marc904>
+    <pgterms:marc905>20201011045306gourmont</pgterms:marc905>
+    <pgterms:marc906>1914</pgterms:marc906>
+    <pgterms:marc907>FR</pgterms:marc907>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="Nbaf236f1d7694e9396b7e143de547d7f">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">fr</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/68871/68871-h/68871-h.htm">
+        <dcterms:isFormatOf rdf:resource="ebooks/68871"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">304809</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-08-30T18:14:18</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N1b5208082f0847c18c4213f59dff036e">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/68871/68871-0.txt">
+        <dcterms:isFormatOf rdf:resource="ebooks/68871"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">281270</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-08-30T18:14:18</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ncd2a601ba90742b88a459930ec3d747a">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/68871/68871-0.zip">
+        <dcterms:isFormatOf rdf:resource="ebooks/68871"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">104379</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-08-30T18:14:20</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N797a0b7de0d348b482c32f7ec284692c">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value>application/octet-stream</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nd20db86d0acb47f980f78eaf6b792b9f">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/68871/68871-h.zip">
+        <dcterms:isFormatOf rdf:resource="ebooks/68871"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">413700</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-08-30T18:14:20</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N1eac196ef2624809ace4a9eb47761ebd">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value>application/octet-stream</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N5c0527d885aa49db98bd32141f22755a">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+  </pgterms:ebook>
+  <cc:Work rdf:about="">
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            https://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
+  </cc:Work>
+  <rdf:Description rdf:about="https://en.wikipedia.org/wiki/R%C3%A9my_de_Gourmont">
+    <dcterms:description>en.wikipedia</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://fr.wikipedia.org/wiki/Remy_de_Gourmont">
+    <dcterms:description>fr.wikipedia</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://fr.wikipedia.org/wiki/Pierre-Eugène_Vibert">
+    <dcterms:description>fr.wikipedia</dcterms:description>
+  </rdf:Description>
+</rdf:RDF>
